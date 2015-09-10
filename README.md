@@ -1,6 +1,6 @@
-#SSH Keyboard
-SSH keyboard layout for AnySoftKeyboard app (BETA).
-A handy keyboard for terminal emulators, ssh clients (e.g. connectbot) and any application that requires full keyboard. The keyboard learns your frequent used commands as you use it (you need to add your common commands for auto suggestion.)
+#neo2 Keyboard
+neo2 keyboard layout for AnySoftKeyboard app (BETA).
+
 
 #Note
 * Install AnySoftKeyboard to use this keyboard layout.
