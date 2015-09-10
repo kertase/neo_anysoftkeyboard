@@ -72,6 +72,8 @@
         <Key android:codes="110" android:keyLabel="j" android:popupCharacters="-"/>
        <Key android:codes="-1"
          android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right" android:keyWidth="10%p"/> 
+     </Row>
+     
     <Row android:rowEdgeFlags="bottom">
         <!--
        	<Key android:codes="-20" android:keyIcon="@drawable/arrow_left" android:isRepeatable="true"/>
