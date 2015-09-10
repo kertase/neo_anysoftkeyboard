@@ -1,4 +1,4 @@
-package com.anysoftkeyboard.languagepack.SSH;
+package com.anysoftkeyboard.languagepack.neo;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
