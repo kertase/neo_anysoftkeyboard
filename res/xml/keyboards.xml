@@ -16,11 +16,11 @@
 	<Keyboard 
 	id="6afa05d1-9934-400f-a5ef-24534036096" 
 	nameResId="@string/keyboard"
-	layoutResId="@xml/ssh_qwerty"
-	landscapeResId="@xml/ssh_qwerty"
+	layoutResId="@xml/ssh_neo"
+	landscapeResId="@xml/ssh_neo"
 	iconResId="@drawable/ssh"
-	defaultDictionaryLocale="en" 
-	description="SSH keyboard created by Pedram Hayati (Pi3cH)"
+	defaultDictionaryLocale="de" 
+	description="neo keyboard based on SSH keyboard from Pedram Hayati (Pi3cH)"
 	index="1"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
 </Keyboards>
