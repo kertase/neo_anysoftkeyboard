@@ -14,7 +14,7 @@
 	* are optional.
 	 -->
 	<Keyboard 
-	id="6afa05d1-9934-400f-a5ef-24534036096" 
+	id="27c88f54-12db-4287-b856-6de99ceb927e" 
 	nameResId="@string/keyboard"
 	layoutResId="@xml/neo"
 	landscapeResId="@xml/neo"
