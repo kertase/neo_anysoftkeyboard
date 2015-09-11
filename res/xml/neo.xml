@@ -14,7 +14,7 @@
        	<Key android:codes="-21" android:keyIcon="@drawable/arrow_right" android:isRepeatable="true"/>
        	key codes: http://r12a.github.io/apps/conversion/
        	-->
-        <Key android:codes="49" android:keyLabel="1" ask:shiftedCodes="176" ask:shiftedKeyLabel="°" 
+        <Key android:codes="49" android:keyLabel="1" ask:shiftedKeyLabel="°"  ask:shiftedCodes="176"
 android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167" ask:shiftedKeyLabel="§" android:popupCharacters="§²º₂∨"/>
         <Key android:codes="51" android:keyLabel="3" ask:shiftedCodes="8467" ask:shiftedKeyLabel="ℓ" android:popupCharacters="ℓ³№₃∧"/>
@@ -39,7 +39,8 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters="\u003e8γΓ"/>
         <Key android:codes="102" android:keyLabel="f" android:popupCharacters="=9φΦ"/>
         <Key android:codes="113" android:keyLabel="q" android:popupCharacters="\u0026+ϕℚ"/>
-        <Key android:codes="223" android:keyLabel="ß" ask:shiftedCodes="7838" ask:shiftedKeyLabel="ẞ" android:keyEdgeFlags="right" android:popupCharacters="ſ−ς∘"/>
+        <Key android:codes="223" android:keyLabel="ß" ask:shiftedCodes="7838" ask:shiftedKeyLabel="ẞ" android:popupCharacters="ſ−ς∘"/>
+        <Key android:codes="769" android:keyLabel="́" ask:shiftedCodes="771" ask:shiftedKeyLabel="̃" android:keyEdgeFlags="right" android:popupCharacter"\u0300\u0302\u0303\u0327\u030C\u0337\u030A\u030B\u0308\u0307\u0314\u0313\u02DE\u0306\u0304\u0323"/>
     </Row>
     <Row>
         <Key android:horizontalGap="8%p" android:codes="117" android:keyLabel="u" android:keyEdgeFlags="left" android:popupCharacters="\\⊂"/>
