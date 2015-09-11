@@ -16,8 +16,8 @@
 	<Keyboard 
 	id="6afa05d1-9934-400f-a5ef-24534036096" 
 	nameResId="@string/keyboard"
-	layoutResId="@xml/ssh_neo"
-	landscapeResId="@xml/ssh_neo"
+	layoutResId="@xml/neo"
+	landscapeResId="@xml/neo"
 	iconResId="@drawable/neo"
 	defaultDictionaryLocale="de" 
 	description="neo2 keyboard based on SSH keyboard from Pedram Hayati (Pi3cH)"
