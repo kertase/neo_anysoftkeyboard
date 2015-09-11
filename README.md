@@ -10,7 +10,7 @@ neo2 keyboard layout for AnySoftKeyboard app (BETA).
 * CTRL key
 * Tab Key
 * Special characters as pop-ups
-* 
+
 #Issues
-Shift not working as expected
-No Mod 3 and 4
+*Shift not working as expected
+*No Mod 3 and 4
