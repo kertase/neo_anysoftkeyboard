@@ -18,7 +18,7 @@
 	nameResId="@string/keyboard"
 	layoutResId="@xml/ssh_neo"
 	landscapeResId="@xml/ssh_neo"
-	iconResId="@drawable/ssh"
+	iconResId="@drawable/neo"
 	defaultDictionaryLocale="de" 
 	description="neo keyboard based on SSH keyboard from Pedram Hayati (Pi3cH)"
 	index="1"/>
