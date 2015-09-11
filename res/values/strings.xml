@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">neo for AnySoftKeyboard</string>
-    <string name="keyboard">neo</string>
+    <string name="app_name">neo2 for AnySoftKeyboard</string>
+    <string name="keyboard">neo2</string>
     <string name="dictionary">SSH</string>
 </resources>
