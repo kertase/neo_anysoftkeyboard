@@ -2,5 +2,4 @@
 <resources>
     <string name="app_name">neo2 for AnySoftKeyboard</string>
     <string name="keyboard">neo2</string>
-    <string name="dictionary">SSH</string>
 </resources>
