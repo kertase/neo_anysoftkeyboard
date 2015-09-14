@@ -24,12 +24,13 @@
 	index="1"/>
 	<Keyboard 
 	id="33789f6f-706a-4ea8-a002-1acf52ed9c49" 
-	nameResId="@string/keyboard"
+	nameResId="@string/keyboard_ssh"
 	layoutResId="@xml/ssh_neo"
 	landscapeResId="@xml/ssh_neo"
 	iconResId="@drawable/neo"
 	defaultDictionaryLocale="xx" 
+	defaultEnabled="false"
 	description="neo2 keyboard based on SSH keyboard from Pedram Hayati (Pi3cH)"
-	index="1"/>
+	index="2"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
 </Keyboards>
