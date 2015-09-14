@@ -12,7 +12,7 @@
         <!--
        	key codes: http://r12a.github.io/apps/conversion/
        	-->
-        <Key android:codes="49" android:keyLabel="1" ask:shiftedKeyLabel="°"  ask:shiftedCodes="176"
+        <Key android:codes="49" android:keyLabel="1"  ask:shiftedCodes="176"
 android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167" ask:shiftedKeyLabel="§" android:popupCharacters="§²º₂∨"/>
         <Key android:codes="51" android:keyLabel="3" ask:shiftedCodes="8467" ask:shiftedKeyLabel="ℓ" android:popupCharacters="ℓ³№₃∧"/>
@@ -73,11 +73,11 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
        	key codes:http://r12a.github.io/apps/conversion/
        	-->     	
       	<Key android:codes="-99" android:keyLabel="" ask:isFunctional="true" android:isRepeatable="true"/>  
-       	<Key android:codes="-22" android:keyLabel="↑" ask:isFunctional="true" android:isRepeatable="true"/>
-       	<Key android:codes="-20" android:keyLabel="←" ask:isFunctional="true" android:isRepeatable="true"/>
-        <Key android:codes="32" android:keyWidth="42%p" ask:isFunctional="true" android:isRepeatable="true"/>
-       	<Key android:codes="-21" android:keyLabel="→" ask:isFunctional="true" android:isRepeatable="true"/>
-      	<Key android:codes="-23" android:keyLabel="↓" ask:isFunctional="true" android:isRepeatable="true"/>
+       	<Key android:codes="-22" android:keyLabel="↑" ask:isFunctional="true" ask:shiftedKeyLabel="↑" android:isRepeatable="true"/>
+       	<Key android:codes="-20" android:keyLabel="←" ask:isFunctional="true" ask:shiftedKeyLabel="←" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyWidth="42%p" ask:isFunctional="true"  android:isRepeatable="true"/>
+       	<Key android:codes="-21" android:keyLabel="→" ask:isFunctional="true" ask:shiftedKeyLabel="→" android:isRepeatable="true"/>
+      	<Key android:codes="-23" android:keyLabel="↓" ask:isFunctional="true" ask:shiftedKeyLabel="↓" android:isRepeatable="true"/>
         <Key android:codes="10" android:keyEdgeFlags="right" android:keyWidth="18%p" ask:longPressCode="-100"/> 
     </Row>
 </Keyboard>
