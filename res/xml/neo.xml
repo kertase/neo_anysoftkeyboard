@@ -27,7 +27,7 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:keyWidth="12%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
     <Row>
-        <Key android:horizontalGap="4%p" android:codes="117" android:keyLabel="x" android:keyEdgeFlags="left" android:popupCharacters="…ξΞ"/>
+        <Key android:horizontalGap="4%p" android:codes="120" android:keyLabel="x" android:keyEdgeFlags="left" android:popupCharacters="…ξΞ"/>
         <Key android:codes="118" android:keyLabel="v" android:popupCharacters="_√"/>
         <Key android:codes="108" android:keyLabel="l" android:popupCharacters="[λΛ"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="]χℂ"/>
