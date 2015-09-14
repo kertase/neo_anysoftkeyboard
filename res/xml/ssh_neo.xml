@@ -66,18 +66,19 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="8211" ask:shiftedKeyLabel="–" android:popupCharacters="–\u00222ϱ⇒"/>
         <Key android:codes="46" android:keyLabel="." ask:shiftedCodes="8226" ask:shiftedKeyLabel="•" android:popupCharacters="•\'3ϑ↦"/>
         <Key android:codes="106" android:keyLabel="j" android:popupCharacters=";θΘ"/>
-       <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right" android:keyWidth="8%p"/> 
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right" android:keyWidth="8%p"/> 
      </Row>
     <Row android:rowEdgeFlags="bottom">
         <!--
        	key codes:http://r12a.github.io/apps/conversion/
        	-->     	
-      	<Key android:isModifier="true" android:codes="-99" android:keyLabel="" ask:isFunctional="true" android:isRepeatable="true"/>  
-       	<Key android:codes="-22" android:keyLabel="↑" ask:isFunctional="true" ask:shiftedKeyLabel="↑" android:isRepeatable="true"/>
-       	<Key android:codes="-20" android:keyLabel="←" ask:isFunctional="true" ask:shiftedKeyLabel="←" android:isRepeatable="true"/>
-        <Key android:codes="32" android:keyWidth="42%p" ask:isFunctional="true"  android:isRepeatable="true"/>
+      	<Key android:isModifier="true" android:codes="-11" android:keyLabel="Ctrl" ask:isFunctional="true"/>  
+     	<Key android:codes="-22" android:keyLabel="↑" ask:isFunctional="true" ask:shiftedKeyLabel="↑" android:isRepeatable="true"/>
+      	<Key android:codes="-20" android:keyLabel="←" ask:isFunctional="true" ask:shiftedKeyLabel="←" android:isRepeatable="true"/>
+        <Key android:codes="32" android:keyWidth="40%p" ask:isFunctional="true"  android:isRepeatable="true"/>
        	<Key android:codes="-21" android:keyLabel="→" ask:isFunctional="true" ask:shiftedKeyLabel="→" android:isRepeatable="true"/>
-      	<Key android:codes="-23" android:keyLabel="↓" ask:isFunctional="true" ask:shiftedKeyLabel="↓" android:isRepeatable="true"/>
-        <Key android:codes="10" android:keyEdgeFlags="right" android:keyWidth="18%p" ask:longPressCode="-100"/> 
+       	<Key android:codes="-23" android:keyLabel="↓" ask:isFunctional="true" ask:shiftedKeyLabel="↓" android:isRepeatable="true"/>
+       	<Key android:codes="9" android:keyLabel="⇥" ask:isFunctional="true"/>
+       	<Key android:codes="10" android:keyEdgeFlags="right" android:keyWidth="12%p" ask:longPressCode="-100"/> 
     </Row>
 </Keyboard>
