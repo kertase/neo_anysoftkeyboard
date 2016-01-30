@@ -19,9 +19,11 @@
 	layoutResId="@xml/neo"
 	landscapeResId="@xml/neo"
 	iconResId="@drawable/neo"
+	physicalKeyboardMappingResId="@xml/neo_phy"
 	defaultDictionaryLocale="de" 
 	description="neo2 keyboard"
 	index="1"/>
+
 	<Keyboard 
 	id="33789f6f-706a-4ea8-a002-1acf52ed9c49" 
 	nameResId="@string/keyboard_ssh"

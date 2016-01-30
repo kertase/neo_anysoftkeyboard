@@ -9,6 +9,4 @@
 	<SequenceMapping keySequence="75" targetChar="\u0079"/>
 	<!-- keycode_m -->
 	<SequenceMapping keySequence="76" targetChar="\u006a"/>
-	<!-- keycode_comma -->
-	<SequenceMapping keySequence="55,55" targetChar="&#x44E;"/>
 </PhysicalTranslation>

@@ -10,7 +10,9 @@ neo2 keyboard layout for AnySoftKeyboard app (BETA).
 * CTRL key
 * Tab Key
 * Special characters as pop-ups
+*Physical keyboard (work in progress)
 
-#Issues
-* Shift not working as expected
+#Known Issues
+* If Shift not working as expected update to latest ask (F-droid not up to date and will bug)
 * No Mod 3 and 4
+* the only thing changed in physical keyboard are the letters
