@@ -32,7 +32,7 @@
 	iconResId="@drawable/neo"
 	defaultDictionaryLocale="xx" 
 	defaultEnabled="false"
-	description="neo2 keyboard based on SSH keyboard from Pedram Hayati (Pi3cH)"
+	description="neo2 keyboard based with Ctr-key"
 	index="2"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
 </Keyboards>
