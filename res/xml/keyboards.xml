@@ -35,4 +35,26 @@
 	description="neo2 keyboard based with Ctr-key"
 	index="2"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
+		<Keyboard 
+	id="607a7062-44fb-4841-aa8b-67d57208c82e" 
+	nameResId="@string/keyboard_bone"
+	layoutResId="@xml/bone"
+	landscapeResId="@xml/bone"
+	iconResId="@drawable/neo"
+	physicalKeyboardMappingResId="@xml/bone_phy"
+	defaultDictionaryLocale="de" 
+	description="bone keyboard frome neo-layout project"
+	index="3"/>
+
+	<Keyboard 
+	id="ca43f55d-0bd7-4035-ba94-a33e5f1942f9" 
+	nameResId="@string/keyboard_ssh_bone"
+	layoutResId="@xml/ssh_bone"
+	landscapeResId="@xml/ssh_bone"
+	iconResId="@drawable/neo"
+	defaultDictionaryLocale="xx" 
+	defaultEnabled="false"
+	description="bone keyboard based with Ctr-key"
+	index="4"/>
+	
 </Keyboards>
