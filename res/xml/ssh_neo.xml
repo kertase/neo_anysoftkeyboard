@@ -38,10 +38,11 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="102" android:keyLabel="f" android:popupCharacters="=9φΦ"/>
         <Key android:codes="113" android:keyLabel="q" android:popupCharacters="\u0026+ϕℚ"/>
         <Key android:codes="223" android:keyLabel="ß" ask:shiftedCodes="7838" ask:shiftedKeyLabel="ẞ" android:popupCharacters="ſ−ς∘"/>
-        <Key android:codes="769" android:keyLabel="́" ask:shiftedCodes="771" ask:shiftedKeyLabel="̃" android:keyEdgeFlags="right" android:popupCharacters="\u0300\u0302\u0303\u0327\u030C\u0337\u030A\u030B\u0308\u0307\u0314\u0313\u02DE\u0306\u0304\u0323"/>   
+        <Key android:codes="27" android:keyLabel="Esc" android:keyEdgeFlags="right" android:isRepeatable="true"/>   
     </Row>
     <Row>
-        <Key android:horizontalGap="8%p" android:codes="117" android:keyLabel="u" android:keyEdgeFlags="left" android:popupCharacters="\\⊂"/>
+       	<Key android:codes="9" android:keyLabel="⇥" android:keyEdgeFlags="left" ask:isFunctional="true"/>
+        <Key android:codes="117" android:keyLabel="u" android:popupCharacters="\\⊂"/>
         <Key android:codes="105" android:keyLabel="i" android:popupCharacters="/ι∫"/>
         <Key android:codes="97" android:keyLabel="a" android:popupCharacters="{α∀"/>
         <Key android:codes="101" android:keyLabel="e" android:popupCharacters="}ε∃"/>
@@ -78,7 +79,7 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="32" android:keyWidth="40%p" ask:isFunctional="true"  android:isRepeatable="true"/>
        	<Key android:codes="-21" android:keyLabel="→" ask:isFunctional="true" ask:shiftedKeyLabel="→" android:isRepeatable="true"/>
        	<Key android:codes="-23" android:keyLabel="↓" ask:isFunctional="true" ask:shiftedKeyLabel="↓" android:isRepeatable="true"/>
-       	<Key android:codes="9" android:keyLabel="⇥" ask:isFunctional="true"/>
+       	<Key android:codes="-6" android:keyLabel="Alt" ask:isFunctional="true"/>
        	<Key android:codes="10" android:keyEdgeFlags="right" android:keyWidth="12%p" ask:longPressCode="-100"/> 
     </Row>
 </Keyboard>
