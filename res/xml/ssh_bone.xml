@@ -46,7 +46,7 @@
         <Key android:codes="108" android:keyLabel="l" android:popupCharacters="\u003e8λΛ"/>
         <Key android:codes="109" android:keyLabel="m" android:popupCharacters="=9μℤ"/>
         <Key android:codes="119" android:keyLabel="w" android:popupCharacters="\u0026+ωΩ"/>
-        <Key android:codes="113" android:keyLabel="q" android:popupCharacters="@−ℚ"/>
+        <Key android:codes="113" android:keyLabel="q" android:popupCharacters="\@−ℚ"/>
         <Key android:codes="27" android:keyLabel="Esc" android:keyEdgeFlags="right" android:isRepeatable="true"/>   
     </Row>
     <Row>
