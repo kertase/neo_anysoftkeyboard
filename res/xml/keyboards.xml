@@ -43,6 +43,7 @@
 	iconResId="@drawable/neo"
 	physicalKeyboardMappingResId="@xml/bone_phy"
 	defaultDictionaryLocale="de" 
+	defaultEnabled="false"
 	description="bone keyboard frome neo-layout project"
 	index="3"/>
 
