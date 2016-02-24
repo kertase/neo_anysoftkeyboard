@@ -73,7 +73,7 @@
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters="%1ζ⇔"/>
         <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="8211" ask:shiftedKeyLabel="–" android:popupCharacters="–\u00222ϱ⇒"/>
         <Key android:codes="46" android:keyLabel="." ask:shiftedCodes="8226" ask:shiftedKeyLabel="•" android:popupCharacters="•\'3ϑ↦"/>
-        <Key android:codes="107" android:keyLabel="k" android:popupCharacters=";θκ×"/>
+        <Key android:codes="107" android:keyLabel="k" android:popupCharacters=";κ×"/>
        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right" android:keyWidth="8%p"/> 
      </Row>
     <Row android:rowEdgeFlags="bottom">
