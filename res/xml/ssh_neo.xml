@@ -32,7 +32,7 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="108" android:keyLabel="l" android:popupCharacters="[λΛ"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="]χℂ"/>
         <Key android:codes="119" android:keyLabel="w" android:popupCharacters="^ωΩ"/>
-        <Key android:codes="107" android:keyLabel="k" android:popupCharacters="!κ¡×"/>
+        <Key android:codes="107" android:keyLabel="k" android:popupCharacters="!¡κ×"/>
         <Key android:codes="104" android:keyLabel="h" android:popupCharacters="\u003c7ψΨ"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters="\u003e8γΓ"/>
         <Key android:codes="102" android:keyLabel="f" android:popupCharacters="=9φΦ"/>
