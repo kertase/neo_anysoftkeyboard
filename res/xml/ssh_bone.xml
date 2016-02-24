@@ -51,7 +51,7 @@
     </Row>
     <Row>
        	<Key android:codes="9" android:keyLabel="⇥" android:keyEdgeFlags="left" ask:isFunctional="true"/>
-        <Key android:horizontalGap="8%p" android:codes="99" android:keyLabel="c" android:popupCharacters="\\χℂ"/>
+        <Key android:codes="99" android:keyLabel="c" android:popupCharacters="\\χℂ"/>
         <Key android:codes="116" android:keyLabel="t" android:popupCharacters="/τ∂"/>
         <Key android:codes="105" android:keyLabel="i" android:popupCharacters="{ι∫"/>
         <Key android:codes="101" android:keyLabel="e" android:popupCharacters="}ε∃"/>
@@ -74,7 +74,7 @@
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters="%1ζ⇔"/>
         <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="8211" ask:shiftedKeyLabel="–" android:popupCharacters="–\u00222ϱ⇒"/>
         <Key android:codes="46" android:keyLabel="." ask:shiftedCodes="8226" ask:shiftedKeyLabel="•" android:popupCharacters="•\'3ϑ↦"/>
-        <Key android:codes="107" android:keyLabel="k" android:popupCharacters=";θκ×"/>
+        <Key android:codes="107" android:keyLabel="k" android:popupCharacters=";κ×"/>
        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right" android:keyWidth="8%p"/> 
      </Row>
     <Row android:rowEdgeFlags="bottom">
