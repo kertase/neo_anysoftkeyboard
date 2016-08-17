@@ -1,6 +1,7 @@
 #neo2 Keyboard
 Neo2 keyboard layout for AnySoftKeyboard app.
-
+Available on f-droid:
+https://f-droid.org/repository/browse/?fdfilter=neo&fdid=com.anysoftkeyboard.languagepack.neo
 
 #Note
 * Install AnySoftKeyboard to use this keyboard layout.
