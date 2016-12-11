@@ -1,28 +1,32 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url 'https://jitpack.io' }
+        maven { url "https://jitpack.io"}
+        maven { url "https://plugins.gradle.org/m2/"}
+
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
-        classpath 'com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:e0929d04f944eae0154c47e834e42f7dcbcb837c'
-        classpath 'com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:e0929d04f944eae0154c47e834e42f7dcbcb837c'
-        classpath 'org.jsoup:jsoup:1.9.1'
+        classpath "com.android.tools.build:gradle:2.2.0"
+        classpath "org.openintents:gradle-fdroid-plugin:0.2"
+        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:e0929d04f944eae0154c47e834e42f7dcbcb837c"
+        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:e0929d04f944eae0154c47e834e42f7dcbcb837c"
+        classpath "org.jsoup:jsoup:1.9.1"
     }
 }
 
-apply plugin: 'com.android.application'
+apply plugin: "com.android.application"
+apply plugin: "org.openintents.fdroid"
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "24.0.0 rc3"
+    buildToolsVersion "23.1.0"
 
     defaultConfig {
         applicationId "com.anysoftkeyboard.languagepack.neo"
         minSdkVersion 7
         targetSdkVersion 23
-        versionCode 1
-        versionName "1.0"
+        versionCode 6
+        versionName "1.5"
     }
 
     signingConfigs {
