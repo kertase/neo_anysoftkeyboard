@@ -7,7 +7,6 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:2.2.0"
-        classpath "org.openintents:gradle-fdroid-plugin:0.2"
         classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:e0929d04f944eae0154c47e834e42f7dcbcb837c"
         classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:e0929d04f944eae0154c47e834e42f7dcbcb837c"
         classpath "org.jsoup:jsoup:1.9.1"
@@ -15,7 +14,6 @@ buildscript {
 }
 
 apply plugin: "com.android.application"
-apply plugin: "org.openintents.fdroid"
 
 android {
     compileSdkVersion 23
