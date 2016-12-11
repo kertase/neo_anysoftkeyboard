@@ -7,8 +7,8 @@ buildscript {
     }
     dependencies {
         classpath "com.android.tools.build:gradle:2.2.0"
-        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:e0929d04f944eae0154c47e834e42f7dcbcb837c"
-        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:e0929d04f944eae0154c47e834e42f7dcbcb837c"
+        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:c09975d"
+        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:c09975d"
         classpath "org.jsoup:jsoup:1.9.1"
     }
 }
