@@ -7,6 +7,6 @@
      "dictionaryResourceId" : a reference to the raw resource of the words dictionary
      "autoTextResourceId" : a reference to a common typing mistakes XML.
      -->
-	<Dictionary nameResId="@string/german_dictionary" locale="de" id="c0b36f44-f21c-4790-904f-ff8f6f3393c1" type="binary_resource" dictionaryResourceId="@array/words_dict_array"  description="German dictionary derived from the titles of https://de.wiktionary.org Articles by Wiktionary Contributors liscensed under CC BY-SA 3.0"/>	
+	<Dictionary nameResId="@string/german_dictionary" locale="de" id="c0b36f44-f21c-4790-904f-ff8f6f3393c1" type="binary_resource" dictionaryResourceId="@array/words_dict_array"  description="German dictionary"/>	
 
 </Dictionaries>
