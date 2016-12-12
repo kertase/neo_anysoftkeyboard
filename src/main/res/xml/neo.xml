@@ -25,13 +25,12 @@
         <!--
        	key codes: http://r12a.github.io/apps/conversion/
        	-->
-        <Key android:codes="49" android:keyLabel="1"  ask:shiftedCodes="176"
-android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
-        <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167"  android:popupCharacters="§²º₂∨"/>
-        <Key android:codes="51" android:keyLabel="3" ask:shiftedCodes="8467"  android:popupCharacters="ℓ³№₃∧"/>
-        <Key android:codes="52" android:keyLabel="4" ask:shiftedCodes="187"  android:popupCharacters="»›♀⊥"/>
-        <Key android:codes="53" android:keyLabel="5" ask:shiftedCodes="171"  android:popupCharacters="«‹·♂∡"/>
-        <Key android:codes="54" android:keyLabel="6" ask:shiftedCodes="36"  android:popupCharacters="$¢£⚥∥"/>
+        <Key android:codes="49" android:keyLabel="1" ask:shiftedCodes="176" android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
+        <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167" android:popupCharacters="§²º₂∨"/>
+        <Key android:codes="51" android:keyLabel="3" ask:shiftedCodes="8467" android:popupCharacters="ℓ³№₃∧"/>
+        <Key android:codes="52" android:keyLabel="4" ask:shiftedCodes="187" android:popupCharacters="»›♀⊥"/>
+        <Key android:codes="53" android:keyLabel="5" ask:shiftedCodes="171" android:popupCharacters="«‹·♂∡"/>
+        <Key android:codes="54" android:keyLabel="6" ask:shiftedCodes="36" android:popupCharacters="$¢£⚥∥"/>
         <Key android:codes="55" android:keyLabel="7" ask:shiftedCodes="8364" android:popupCharacters="€¥¤ϰ→"/>
         <Key android:codes="56" android:keyLabel="8" ask:shiftedCodes="8222" android:popupCharacters="„‚⇥⟨∞"/>
         <Key android:codes="57" android:keyLabel="9" ask:shiftedCodes="8220" android:popupCharacters="“‘/⟩∝"/>
@@ -67,8 +66,7 @@ android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
         <Key android:codes="121" android:keyLabel="y" android:keyEdgeFlags="right" android:popupCharacters="\@.υ∇"/>
     </Row>
     <Row>
-        <Key android:codes="-1"
-         android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="12%p"/>
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="12%p"/>
         <Key android:codes="252" android:keyLabel="ü" android:popupCharacters="#∪"/>
         <Key android:codes="246" android:keyLabel="ö" android:popupCharacters="$ϵ∩"/>
         <Key android:codes="228" android:keyLabel="ä" android:popupCharacters="|ηℵ"/>
