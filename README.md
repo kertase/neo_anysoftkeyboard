@@ -22,7 +22,7 @@ https://f-droid.org/repository/browse/?fdfilter=neo&fdid=com.anysoftkeyboard.lan
 License
 -------
 
-* All code by  Menny Even-Danan:
+* All code unless specified:
     Copyright 2013 Menny Even-Danan
     
     Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +37,7 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
     
-* All code by kertase:
+* Keyboard layout XMLs or specified in file head:
     Copyright 2016, kertase
 
     This file is free software: you can redistribute it and/or modify
