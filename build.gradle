@@ -1,0 +1,70 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io"}
+        maven { url "https://plugins.gradle.org/m2/"}
+
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:2.2.0"
+        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:makedictionary:c09975d"
+        classpath "com.github.AnySoftKeyboard.AnySoftKeyboardTools:generatewordslist:c09975d"
+        classpath "org.jsoup:jsoup:1.9.1"
+    }
+}
+
+apply plugin: "com.android.application"
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.1"
+
+    defaultConfig {
+        applicationId "com.anysoftkeyboard.languagepack.neo"
+        minSdkVersion 7
+        targetSdkVersion 23
+        versionCode 6
+        versionName "1.5"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("key.store")
+            storePassword System.getenv("PACK_KEYSTORE_PASSWORD")
+            keyAlias System.getenv("PACK_KEYSTORE_ALIAS")
+            keyPassword System.getenv("PACK_KEYSTORE_KEY_PASSWORD")
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            zipAlignEnabled true
+            debuggable false
+
+            minifyEnabled false
+        }
+    }
+}
+
+
+task makeDictionary(type: com.anysoftkeyboard.tools.makedictionary.MakeDictionaryTask) {
+    inputWordsListFile new File(project.getProjectDir(), "dictionary/wiktnry_de.txt")
+}
+
+afterEvaluate { proj ->
+    proj.tasks.all { task ->
+        if (task.name.startsWith('generate') && task.name.endsWith('BuildConfig')) {
+            task.dependsOn makeDictionary
+        }
+    }
+}
+
+dependencies {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+    compile 'com.github.AnySoftKeyboard:AnySoftKeyboard-API:1.3.5'
+}
+

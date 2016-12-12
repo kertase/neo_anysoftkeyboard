@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">neo2 for AnySoftKeyboard</string>
+    <string name="keyboard">neo2</string>
+    <string name="keyboard_ssh">neo2 ssh</string>
+    <string name="keyboard_bone">bone</string>
+    <string name="keyboard_ssh_bone">bone ssh</string>
+    <string name="german_dictionary">German dictionary based on Wiktionary entries</string>
+</resources>
