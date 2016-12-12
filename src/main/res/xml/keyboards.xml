@@ -23,6 +23,15 @@
 	defaultDictionaryLocale="de" 
 	description="neo2 keyboard"
 	index="1"/>
+        <Keyboard 
+        id="cac18ad5-28ca-4550-839c-b92431758132" 
+        nameResId="@string/keyboard_simple"
+        layoutResId="@xml/neo_simple"
+        landscapeResId="@xml/neo_simple"
+        iconResId="@drawable/neo"
+        defaultDictionaryLocale="de" 
+        description="neo2 keyboard simplified for smaller screens"
+        index="2"/>
 
 	<Keyboard 
 	id="33789f6f-706a-4ea8-a002-1acf52ed9c49" 
@@ -33,7 +42,7 @@
 	defaultDictionaryLocale="xx" 
 	defaultEnabled="false"
 	description="neo2 keyboard based with Ctr-key"
-	index="2"/>
+	index="3"/>
 	<!-- you can add additional layouts. Just create additional Keyboard xml node. -->
 		<Keyboard 
 	id="607a7062-44fb-4841-aa8b-67d57208c82e" 
@@ -44,7 +53,7 @@
 	defaultDictionaryLocale="de" 
 	defaultEnabled="false"
 	description="bone keyboard frome neo-layout project"
-	index="3"/>
+	index="4"/>
 
 	<Keyboard 
 	id="ca43f55d-0bd7-4035-ba94-a33e5f1942f9" 
@@ -55,6 +64,6 @@
 	defaultDictionaryLocale="xx" 
 	defaultEnabled="false"
 	description="bone keyboard based with Ctr-key"
-	index="4"/>
+	index="5"/>
 	
 </Keyboards>

@@ -23,16 +23,16 @@
        	key codes: http://r12a.github.io/apps/conversion/
        	-->
         <Key android:codes="49" android:keyLabel="1"  ask:shiftedCodes="176" android:keyEdgeFlags="left" android:popupCharacters="°¹ª₁¬"/>
-        <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167" ask:shiftedKeyLabel="§" android:popupCharacters="§²º₂∨"/>
-        <Key android:codes="51" android:keyLabel="3" ask:shiftedCodes="8467" ask:shiftedKeyLabel="ℓ" android:popupCharacters="ℓ³№₃∧"/>
-        <Key android:codes="52" android:keyLabel="4" ask:shiftedCodes="187" ask:shiftedKeyLabel="»" android:popupCharacters="»›♀⊥"/>
-        <Key android:codes="53" android:keyLabel="5" ask:shiftedCodes="171" ask:shiftedKeyLabel="«" android:popupCharacters="«‹·♂∡"/>
-        <Key android:codes="54" android:keyLabel="6" ask:shiftedCodes="36" ask:shiftedKeyLabel="$" android:popupCharacters="$¢£⚥∥"/>
-        <Key android:codes="55" android:keyLabel="7" ask:shiftedCodes="8364" ask:shiftedKeyLabel="€" android:popupCharacters="€¥¤ϰ→"/>
-        <Key android:codes="56" android:keyLabel="8" ask:shiftedCodes="8222" ask:shiftedKeyLabel="„" android:popupCharacters="„‚⇥⟨∞"/>
-        <Key android:codes="57" android:keyLabel="9" ask:shiftedCodes="8220" ask:shiftedKeyLabel="“" android:popupCharacters="“‘/⟩∝"/>
-        <Key android:codes="48" android:keyLabel="0" ask:shiftedCodes="8221" ask:shiftedKeyLabel="”" android:popupCharacters="”’*₀∅"/>
-        <Key android:codes="45" android:keyLabel="-" ask:shiftedCodes="8212" ask:shiftedKeyLabel="—" android:popupCharacters="—-‑­"/>
+        <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167"  android:popupCharacters="§²º₂∨"/>
+        <Key android:codes="51" android:keyLabel="3" ask:shiftedCodes="8467" android:popupCharacters="ℓ³№₃∧"/>
+        <Key android:codes="52" android:keyLabel="4" ask:shiftedCodes="187"  android:popupCharacters="»›♀⊥"/>
+        <Key android:codes="53" android:keyLabel="5" ask:shiftedCodes="171"  android:popupCharacters="«‹·♂∡"/>
+        <Key android:codes="54" android:keyLabel="6" ask:shiftedCodes="36"  android:popupCharacters="$¢£⚥∥"/>
+        <Key android:codes="55" android:keyLabel="7" ask:shiftedCodes="8364" android:popupCharacters="€¥¤ϰ→"/>
+        <Key android:codes="56" android:keyLabel="8" ask:shiftedCodes="8222"  android:popupCharacters="„‚⇥⟨∞"/>
+        <Key android:codes="57" android:keyLabel="9" ask:shiftedCodes="8220"  android:popupCharacters="“‘/⟩∝"/>
+        <Key android:codes="48" android:keyLabel="0" ask:shiftedCodes="8221"  android:popupCharacters="”’*₀∅"/>
+        <Key android:codes="45" android:keyLabel="-" ask:shiftedCodes="8212"  android:popupCharacters="—-‑­"/>
         <Key android:keyWidth="12%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
     <Row>
@@ -50,7 +50,7 @@
         <Key android:codes="27" android:keyLabel="Esc" android:keyEdgeFlags="right" android:isRepeatable="true"/>   
     </Row>
     <Row>
-       	<Key android:codes="9" android:keyLabel="⇥" android:keyEdgeFlags="left" ask:isFunctional="true"/>
+       	<Key android:codes="9"  android:keyLabel="⇥" android:keyEdgeFlags="left" ask:isFunctional="true"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="\\χℂ"/>
         <Key android:codes="116" android:keyLabel="t" android:popupCharacters="/τ∂"/>
         <Key android:codes="105" android:keyLabel="i" android:popupCharacters="{ι∫"/>
@@ -61,7 +61,7 @@
         <Key android:codes="114" android:keyLabel="r" android:popupCharacters=")5ρℝ"/>
         <Key android:codes="115" android:keyLabel="s" android:popupCharacters="-6σΣ"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters=":,γΓ"/>
-        <Key android:codes="223" android:keyLabel="ß" ask:shiftedCodes="7838" ask:shiftedKeyLabel="ẞ" android:keyEdgeFlags="right" android:popupCharacters="\ſ.ς∘"/>
+        <Key android:codes="223" android:keyLabel="ß" ask:shiftedCodes="7838"  android:keyEdgeFlags="right" android:popupCharacters="\ſ.ς∘"/>
     </Row>
     <Row>
         <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="12%p"/>
@@ -72,8 +72,8 @@
         <Key android:codes="246" android:keyLabel="ö" android:popupCharacters="`ϵ∩"/>
         <Key android:codes="121" android:keyLabel="y" android:popupCharacters="+:υ⇐"/>
         <Key android:codes="122" android:keyLabel="z" android:popupCharacters="%1ζ⇔"/>
-        <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="8211" ask:shiftedKeyLabel="–" android:popupCharacters="–\u00222ϱ⇒"/>
-        <Key android:codes="46" android:keyLabel="." ask:shiftedCodes="8226" ask:shiftedKeyLabel="•" android:popupCharacters="•\'3ϑ↦"/>
+        <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="8211"  android:popupCharacters="–\u00222ϱ⇒"/>
+        <Key android:codes="46" android:keyLabel="." ask:shiftedCodes="8226"  android:popupCharacters="•\'3ϑ↦"/>
         <Key android:codes="107" android:keyLabel="k" android:popupCharacters=";κ×"/>
        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="right" android:keyWidth="8%p"/> 
      </Row>
