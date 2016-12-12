@@ -48,11 +48,11 @@ android {
 }
 
 task parseDictionaryFile(type: com.anysoftkeyboard.tools.generatewordslist.GenerateWordsListTask) {
-    inputTextFile new File(project.getProjectDir(), "dictionary/igerman98.txt")
+    inputFiles new File(project.getProjectDir(), "dictionary/igerman98.txt")
     outputWordsListFile new File(project.getProjectDir(), "dictionary/igerman98.xml")
     wordCharacters "ABCDEFGHIJKLMNOPQRSTUVWXYZÜÖÄabcdefghijklmnopqrstuvwxyzüöä.-".toCharArray()
     additionalInnerCharacters "'".toCharArray()
-    locale Locale.DE
+    locale Locale.US
 }
 
 task makeDictionary(type: com.anysoftkeyboard.tools.makedictionary.MakeDictionaryTask) {
