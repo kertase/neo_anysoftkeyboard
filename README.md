@@ -32,7 +32,7 @@ gradle build
 
 If there was no error you can find the APK in the directory `build/outputs/apk`.
 
-## License
+## Licensing
 
 * All code unless specified:
 ```
