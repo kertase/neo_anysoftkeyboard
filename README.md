@@ -1,26 +1,38 @@
-#neo2 Keyboard
-Neo2 keyboard layout for AnySoftKeyboard app.
-Available on f-droid:
-https://f-droid.org/repository/browse/?fdfilter=neo&fdid=com.anysoftkeyboard.languagepack.neo
+# Neo2 Keyboard Layout for AnySoftKeyboard
+Provides Neo2 keyboard layouts for the AnySoftKeyboard App on Android.
 
-#Note
-* Install AnySoftKeyboard to use this keyboard layout.
+## Installation
+* First install AnySoftKeyboard, which is available from [F-Droid](https://f-droid.org/repository/browse/?fdfilter=anysoft&fdid=com.menny.android.anysoftkeyboard).
+* Then install the Neo2 keyboard layout, which is also available from [F-Droid](https://f-droid.org/repository/browse/?fdfilter=neo&fdid=com.anysoftkeyboard.languagepack.neo).
 
-#Features
+## Features
 * Arrow keys
 * CTRL key
 * Tab Key
 * Special characters as pop-ups
 * Physical keyboard (work in progress)
 
-#Known Issues
+## Known Issues
 * If Shift not working as expected update to latest ask (F-droid not up to date and will bug)
 * No Mod 3 and 4
 * The only thing changed in physical keyboard are the letters
 
+## Building from source
+You need to have an appropriate Android SDK, its platform tools and gradle installed.
+To create an APK you need to [create a keystore](http://stackoverflow.com/questions/3997748/how-can-i-create-a-keystore).
 
-License
--------
+Execute the following commands with your keystore and key information.
+
+```bash
+export PACK_KEYSTORE_PASSWORD="yourpassword"
+export PACK_KEYSTORE_ALIAS="keyalias"
+export PACK_KEYSTORE_KEY_PASSWORD="keypswd"
+gradle build
+```
+
+If there was no error you can find the APK in the directory `build/outputs/apk`.
+
+## License
 
 * All code unless specified:
     Copyright 2013 Menny Even-Danan
