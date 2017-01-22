@@ -84,7 +84,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-and for wiktrny_de files:
- Dictionnary derived from the titles of [[de.wiktionary.org]] articles by the Wiktionary contributors liscensed under CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/
+```
+* and for wiktrny_de files:
+```
+Dictionary derived from the titles of [[de.wiktionary.org]] articles by the Wiktionary contributors licensed under CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0/
 ```
 
