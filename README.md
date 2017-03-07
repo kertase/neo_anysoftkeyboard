@@ -13,7 +13,7 @@ Provides Neo2 keyboard layouts for the AnySoftKeyboard App on Android.
 * Physical keyboard (work in progress)
 
 ## Known Issues
-* If Shift not working as expected update to latest ask (F-droid not up to date and will bug)
+* One latest ASK Shift is not working completly as expected( ℓ overides number and one shift key does not work as expected when pushed)
 * No Mod 3 and 4
 * The only thing changed in physical keyboard are the letters
 
