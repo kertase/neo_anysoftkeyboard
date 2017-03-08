@@ -71,12 +71,13 @@
 </Row>
 <Row android:rowEdgeFlags="bottom">
     <!-- key codes:http://r12a.github.io/apps/conversion/ -->
+    <Key android:codes="@integer/key_code_mode_symbols" ask:isFunctional="true" android:keyEdgeFlags="left"/>
     <Key android:isModifier="true" android:codes="-10" ask:longPressCode="-102" ask:isFunctional="true"/>
     <Key android:codes="769" android:keyLabel="́" ask:shiftedCodes="771" android:popupCharacters="\u0300\u0302\u0303\u0327\u030C\u0337\u030A\u030B\u0308\u0307\u0314\u0313\u02DE\u0306\u0304\u0323"/>
+    <Key android:codes="32" android:keyWidth="40%p" ask:isFunctional="true" android:isRepeatable="true"/>
     <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="8211" android:popupCharacters="–\u0022ϱ"/>
-    <Key android:codes="32" android:keyWidth="46%p" ask:isFunctional="true" android:isRepeatable="true"/>
     <Key android:codes="46" android:keyLabel="." ask:shiftedCodes="8226" android:popupCharacters="•\'ϑ"/>
-    <Key android:codes="10" android:keyEdgeFlags="right" android:keyWidth="18%p" ask:longPressCode="-100"/>
+    <Key android:codes="10" android:keyEdgeFlags="right" android:keyWidth="15%p" ask:longPressCode="-100"/>
 </Row>
 </Keyboard>
 
