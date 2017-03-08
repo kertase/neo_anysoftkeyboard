@@ -15,9 +15,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.neo"
-          android:keyWidth="9%p" android:keyHeight="@dimen/key_height"
+          android:keyWidth="9%p" android:keyHeight="@integer/key_normal_height"
           android:horizontalGap="0px" android:verticalGap="0px">
-<Row android:rowEdgeFlags="top">
+<Row android:rowEdgeFlags="top"  android:keyHeight="@integer/key_short_height">
     <!-- key codes: http://r12a.github.io/apps/conversion/ -->
     <Key android:codes="49" android:keyLabel="1" ask:shiftedCodes="176" android:keyEdgeFlags="left" android:popupCharacters="¹ª₁"/>
     <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="167" android:popupCharacters="²º₂"/>
