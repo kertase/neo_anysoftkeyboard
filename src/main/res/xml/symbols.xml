@@ -19,14 +19,14 @@
           android:horizontalGap="0px" android:verticalGap="0px">
 <Row android:rowEdgeFlags="top">
     <!-- key codes: http://r12a.github.io/apps/conversion/ -->
-    <Key android:codes="170" android:keyLabel="ª" ask:shiftedCodes="185"android:keyEdgeFlags="left" />
+    <Key android:codes="170" android:keyLabel="ª" ask:shiftedCodes="185" android:keyEdgeFlags="left"/>
     <Key android:codes="186" android:keyLabel="º" ask:shiftedCodes="178"/>
     <Key android:codes="8470" android:keyLabel="№" ask:shiftedCodes="179"/>
     <Key android:codes="" android:keyLabel="" ask:shiftedCodes="8250"/>
     <Key android:codes="183" android:keyLabel="·" ask:shiftedCodes="8249"/>
     <Key android:codes="163" android:keyLabel="£" ask:shiftedCodes="162"/>
     <Key android:codes="164" android:keyLabel="¤" ask:shiftedCodes="165"/>
-    <Key android:codes="9" android:keyLabel"⇥" ask:shiftedCodes="8218"/>
+    <Key android:codes="9" android:keyLabel="\⇥" ask:shiftedCodes="8218"/>
     <Key android:codes="47" android:keyLabel="/" ask:shiftedCodes="8216"/>
     <Key android:codes="42" android:keyLabel="*" ask:shiftedCodes="8217"/>
     <Key android:codes="45" android:keyLabel="-" android:keyEdgeFlags="right" android:isRepeatable="true"/>
