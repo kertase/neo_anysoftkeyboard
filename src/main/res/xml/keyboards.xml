@@ -22,7 +22,9 @@
 	physicalKeyboardMappingResId="@xml/neo_phy"
 	defaultDictionaryLocale="de" 
 	description="neo2 keyboard"
-	index="1"/>
+        defaultEnabled="false"
+	index="2"/>
+
         <Keyboard 
         id="cac18ad5-28ca-4550-839c-b92431758132" 
         nameResId="@string/keyboard_simple"
@@ -30,8 +32,9 @@
         landscapeResId="@xml/neo_simple"
         iconResId="@drawable/neo"
         defaultDictionaryLocale="de" 
+        defaultEnabled="true"
         description="neo2 keyboard simplified for smaller screens"
-        index="2"/>
+        index="1"/>
 
 	<Keyboard 
 	id="33789f6f-706a-4ea8-a002-1acf52ed9c49" 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016, kertase
+
+    This file is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.neo"
+          android:keyWidth="9%p" android:keyHeight="@dimen/key_height"
+          android:horizontalGap="0px" android:verticalGap="0px">
+<Row android:rowEdgeFlags="top">
+    <!-- key codes: http://r12a.github.io/apps/conversion/ -->
+    <Key android:codes="170" android:keyLabel="ª" ask:shiftedCodes="185" android:keyEdgeFlags="left"/>
+    <Key android:codes="186" android:keyLabel="º" ask:shiftedCodes="178"/>
+    <Key android:codes="8470" android:keyLabel="№" ask:shiftedCodes="179"/>
+    <Key android:codes="" android:keyLabel="" ask:shiftedCodes="8250"/>
+    <Key android:codes="183" android:keyLabel="·" ask:shiftedCodes="8249"/>
+    <Key android:codes="163" android:keyLabel="£" ask:shiftedCodes="162"/>
+    <Key android:codes="164" android:keyLabel="¤" ask:shiftedCodes="165"/>
+    <Key android:codes="9" android:keyLabel="\⇥" ask:shiftedCodes="8218"/>
+    <Key android:codes="47" android:keyLabel="/" ask:shiftedCodes="8216"/>
+    <Key android:codes="42" android:keyLabel="*" ask:shiftedCodes="8217"/>
+    <Key android:codes="45" android:keyLabel="-" android:keyEdgeFlags="right" android:isRepeatable="true"/>
+</Row>
+<Row>
+    <Key android:codes="-92" android:keyLabel="⇞" ask:shiftedCodes="8230" android:keyEdgeFlags="left"/>
+    <Key android:codes="-5" android:keyLabel="⌫" ask:shiftedCodes="95"/>
+    <Key android:codes="keycode_page_up" android:keyLabel="⇡" ask:shiftedCodes="91"/>
+    <Key android:codes="-6" android:keyLabel="⌦" ask:shiftedCodes="93"/>
+    <Key android:codes="-93" android:keyLabel="⇟" ask:shiftedCodes="94"/>
+    <Key android:codes="161" android:keyLabel="¡" ask:shiftedCodes="33"/>
+    <Key android:codes="55" android:keyLabel="7" ask:shiftedCodes="60"/>
+    <Key android:codes="56" android:keyLabel="8" ask:shiftedCodes="62"/>
+    <Key android:codes="57" android:keyLabel="9" ask:shiftedCodes="61"/>
+    <Key android:codes="43" android:keyLabel="+" ask:shiftedCodes="38"/>
+    <Key android:codes="8722" android:keyLabel="−" ask:shiftedCodes="383"/>
+</Row>
+<Row>
+    <Key android:codes="-24" android:keyLabel="⇱" android:keyEdgeFlags="left" ask:shiftedCodes="92"/>
+    <Key android:codes="-20" android:keyLabel="⇠" ask:shiftedCodes="47"/>
+    <Key android:codes="-23" android:keyLabel="⇣" ask:shiftedCodes="123"/>
+    <Key android:codes="-21" android:keyLabel="⇢" ask:shiftedCodes="125"/>
+    <Key android:codes="-25" android:keyLabel="⇲" ask:shiftedCodes="42"/>
+    <Key android:codes="191" android:keyLabel="¿" ask:shiftedCodes="63"/>
+    <Key android:codes="53" android:keyLabel="5" ask:shiftedCodes="40"/>
+    <Key android:codes="54" android:keyLabel="6" ask:shiftedCodes="41"/>
+    <Key android:codes="55" android:keyLabel="7" ask:shiftedCodes="45"/>
+    <Key android:codes="44" android:keyLabel="," ask:shiftedCodes="58"/>
+    <Key android:codes="46" android:keyLabel="." android:keyEdgeFlags="right" ask:shiftedCodes="64"/>
+</Row>
+<Row>
+    <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="10%p"/>
+    <Key android:codes="27" android:keyLabel="⌧" ask:shiftedCodes="35"/>
+    <Key android:codes="9" android:keyLabel="⇥" ask:shiftedCodes="36"/>
+    <Key android:codes="-124" android:keyLabel="⎀" ask:shiftedCodes="124"/>
+    <Key android:codes="10" android:keyLabel="⏎" ask:shiftedCodes="112"/>
+    <Key android:codes="26" android:keyLabel="↶" ask:shiftedCodes="96"/>
+    <Key android:codes="51" android:keyLabel="1" ask:shiftedCodes="43"/>
+    <Key android:codes="50" android:keyLabel="2" ask:shiftedCodes="37"/>
+    <Key android:codes="49" android:keyLabel="3" ask:shiftedCodes="59"/>
+    <Key android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="18%p"/>
+</Row>
+<Row android:rowEdgeFlags="bottom">
+    <!-- key codes:http://r12a.github.io/apps/conversion/ -->
+    <Key android:codes="@integer/key_code_mode_symbols" ask:isFunctional="true" android:keyEdgeFlags="left"/>
+    <Key android:isModifier="true" android:codes="-10" ask:longPressCode="-102" ask:isFunctional="true"/>
+    <Key android:codes="769" android:keyLabel="́" ask:shiftedCodes="771" android:popupCharacters="\u0300\u0302\u0303\u0327\u030C\u0337\u030A\u030B\u0308\u0307\u0314\u0313\u02DE\u0306\u0304\u0323"/>
+    <Key android:codes="32" android:keyWidth="40%p" ask:isFunctional="true" android:isRepeatable="true"/>
+    <Key android:codes="48" android:keyLabel=":" ask:shiftedCodes="34"/>
+    <Key android:codes="58" android:keyLabel=";" ask:shiftedCodes="39"/>
+    <Key android:codes="48" android:keyLabel="1" ask:shiftedCodes="32" android:keyEdgeFlags="right" android:keyWidth="15%p" ask:longPressCode="-100"/>
+</Row>
+</Keyboard>
+
