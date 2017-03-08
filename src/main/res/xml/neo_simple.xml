@@ -45,7 +45,7 @@
     <Key android:codes="223" android:keyLabel="ß" ask:shiftedCodes="7838" android:popupCharacters="ſς∘"/>
 </Row>
 <Row>
-    <Key android:codes="117" android:keyLabel="u" android:keyEdgeFlags="left" android:popupCharacters="\\⊂"/>
+    <Key android:codes="117" android:keyLabel="u" android:keyEdgeFlags="left" android:popupCharacters="\\⊂×"/>
     <Key android:codes="105" android:keyLabel="i" android:popupCharacters="/ι∫"/>
     <Key android:codes="97" android:keyLabel="a" android:popupCharacters="{α∀"/>
     <Key android:codes="101" android:keyLabel="e" android:popupCharacters="}ε∃"/>
@@ -58,7 +58,7 @@
     <Key android:codes="121" android:keyLabel="y" android:keyEdgeFlags="right" android:popupCharacters="\@υ∇"/>
 </Row>
 <Row>
-    <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="12%p"/>
+    <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left" android:keyWidth="14%p"/>
     <Key android:codes="252" android:keyLabel="ü" android:popupCharacters="#∪∧"/>
     <Key android:codes="246" android:keyLabel="ö" android:popupCharacters="$ϵ∩"/>
     <Key android:codes="228" android:keyLabel="ä" android:popupCharacters="|ηℵ"/>
@@ -67,7 +67,7 @@
     <Key android:codes="98" android:keyLabel="b" android:popupCharacters="+βΣ"/>
     <Key android:codes="109" android:keyLabel="m" android:popupCharacters="%μ⇔"/>
     <Key android:codes="106" android:keyLabel="j" android:popupCharacters=";θΘ"/>
-    <Key android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="16%p"/>
+    <Key android:codes="-5" android:isRepeatable="true" android:keyEdgeFlags="right" android:keyWidth="14%p"/>
 </Row>
 <Row android:rowEdgeFlags="bottom">
     <!-- key codes:http://r12a.github.io/apps/conversion/ -->
