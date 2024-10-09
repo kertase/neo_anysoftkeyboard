@@ -1,3 +1,8 @@
+
+# DEPRECATED! neo and neo simple are integrated in the german pack of Anysoftkeyboard
+
+
+
 # Neo2 Keyboard Layout for AnySoftKeyboard
 Provides Neo2 keyboard layouts for the AnySoftKeyboard App on Android.
 
