@@ -14,7 +14,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>. -->
 <Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:ask="http://schemas.android.com/apk/res/com.anysoftkeyboard.languagepack.neo"
+          xmlns:ask="http://schemas.android.com/apk/res-auto"
           android:keyWidth="9%p" android:keyHeight="@integer/key_normal_height"
           android:horizontalGap="0px" android:verticalGap="0px">
 <Row android:rowEdgeFlags="top"  android:keyHeight="@integer/key_short_height">
